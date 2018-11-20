@@ -3,9 +3,21 @@ h1{
     justify-content: center;
     
 }
+header{
+    background-color: black; color: antiquewhite;
+    padding: 20px;
+}
+nav{
+    padding: 10px;  background-color: blue;
+    justify-content: center;
+}
+a{
+    color: black; padding: 5px;
+}
 
 img{
-    display: flex;
+    height: 250px; width: 250px;
+    display: inline-block;
     animation: fadeIn;
     animation-duration: 3s;
     animation-delay: 0;
@@ -27,4 +39,8 @@ img{
     100%{
         opacity: 1;
     }
+}
+main{
+    background-image: url("need1.jpg");
+    background-size: cover;
 }
