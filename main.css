@@ -5,4 +5,8 @@ h1{
 }
 header{
     background-color: black; color: antiquewhite;
+    padding: 20px;
+}
+nav{
+    padding: 10px; color: azure; background-color: blue;
 }
