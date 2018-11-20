@@ -16,7 +16,8 @@ a{
 }
 
 img{
-    display: flex;
+    height: 250px; width: 250px;
+    display: inline-block;
     animation: fadeIn;
     animation-duration: 3s;
     animation-delay: 0;
